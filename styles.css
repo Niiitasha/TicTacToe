@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(30, 197, 197);
+    text-align: center;
+    font-size: 50px;
+}
+
+#btnsContainer {
+    display:flex;
+    justify-content: center;
+    /* border: solid black; */
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5, #btn6, #btn7, #btn8, #btn9 {
+    border: solid black;
+    width: 150px;
+    height: 150px;
+    display: block;
+    background-color: rgb(22, 209, 22);
+}
