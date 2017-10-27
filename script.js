@@ -9,12 +9,12 @@ function clicked1() {
         document.getElementById("btn1").textContent = "X";
 
     } else if (xOrO === "O") {
-
+        var btnA = document.getElementById("btn1");
+        document.getElementById("btn1").textContent = "O";
 
     } else {
         var invalid = prompt("Invalid entry. Please enter either X or O");
     }
-
 }
 
 btn2.onclick = function () {
@@ -27,13 +27,13 @@ function clicked2() {
         var btnB = document.getElementById("btn2");
         document.getElementById("btn2").textContent = "X";
 
-    } else if (xOrO.toLowerCase() === "O") {
-
+    } else if (xOrO === "O") {
+        var btnB = document.getElementById("btn2");
+        document.getElementById("btn2").textContent = "O";
 
     } else {
         var invalid = prompt("Invalid entry. Please enter either X or O");
     }
-
 }
 
 btn3.onclick = function () {
@@ -46,13 +46,13 @@ function clicked3() {
         var btnC = document.getElementById("btn3");
         document.getElementById("btn3").textContent = "X";
 
-    } else if (xOrO.toLowerCase() === "O") {
-
+    } else if (xOrO === "O") {
+        var btnC = document.getElementById("btn3");
+        document.getElementById("btn3").textContent = "O";
 
     } else {
         var invalid = prompt("Invalid entry. Please enter either X or O");
     }
-
 }
 
 btn4.onclick = function () {
@@ -65,13 +65,13 @@ function clicked4() {
         var btnD = document.getElementById("btn4");
         document.getElementById("btn4").textContent = "X";
 
-    } else if (xOrO.toLowerCase() === "O") {
-
+    } else if (xOrO === "O") {
+        var btnD = document.getElementById("btn4");
+        document.getElementById("btn4").textContent = "O";
 
     } else {
         var invalid = prompt("Invalid entry. Please enter either X or O");
     }
-
 }
 
 
@@ -85,13 +85,13 @@ function clicked5() {
         var btnD = document.getElementById("btn5");
         document.getElementById("btn5").textContent = "X";
 
-    } else if (xOrO.toLowerCase() === "O") {
-
+    } else if (xOrO === "O") {
+        var btnD = document.getElementById("btn5");
+        document.getElementById("btn5").textContent = "O";
 
     } else {
         var invalid = prompt("Invalid entry. Please enter either X or O");
     }
-
 }
 
 btn6.onclick = function () {
@@ -104,13 +104,13 @@ function clicked6() {
         var btnD = document.getElementById("btn6");
         document.getElementById("btn6").textContent = "X";
 
-    } else if (xOrO.toLowerCase() === "O") {
-
+    } else if (xOrO === "O") {
+        var btnD = document.getElementById("btn6");
+        document.getElementById("btn6").textContent = "O";
 
     } else {
         var invalid = prompt("Invalid entry. Please enter either X or O");
     }
-
 }
 
 btn7.onclick = function () {
@@ -123,13 +123,13 @@ function clicked7() {
         var btnD = document.getElementById("btn7");
         document.getElementById("btn7").textContent = "X";
 
-    } else if (xOrO.toLowerCase() === "O") {
-
+    } else if (xOrO === "O") {
+        var btnD = document.getElementById("btn7");
+        document.getElementById("btn7").textContent = "O";
 
     } else {
         var invalid = prompt("Invalid entry. Please enter either X or O");
     }
-
 }
 
 btn8.onclick = function () {
@@ -142,13 +142,13 @@ function clicked8() {
         var btnD = document.getElementById("btn8");
         document.getElementById("btn8").textContent = "X";
 
-    } else if (xOrO.toLowerCase() === "O") {
-
+    } else if (xOrO === "O") {
+        var btnD = document.getElementById("btn8");
+        document.getElementById("btn8").textContent = "O";
 
     } else {
         var invalid = prompt("Invalid entry. Please enter either X or O");
     }
-
 }
 
 btn9.onclick = function () {
@@ -161,11 +161,11 @@ function clicked9() {
         var btnD = document.getElementById("btn9");
         document.getElementById("btn9").textContent = "X";
 
-    } else if (xOrO.toLowerCase() === "O") {
-
+    } else if (xOrO === "O") {
+        var btnD = document.getElementById("btn9");
+        document.getElementById("btn9").textContent = "O";
 
     } else {
         var invalid = prompt("Invalid entry. Please enter either X or O");
     }
-
 }
